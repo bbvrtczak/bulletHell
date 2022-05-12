@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="drawing_func.h" />
+    <ClInclude Include="game_func.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="structs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="szablon2vs19.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bullet.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="cs8x8.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="enemy.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="health_bar_0.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="health_bar_1.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="health_bar_2.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="health_bar_3.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="health_bar_4.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="health_bar_5.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="health_bar_full.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="game_over.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="map.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="menu.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="menu_options.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="player_down.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="player_left.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="player_right.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="player_up.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="bullet_player.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="icon.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="immortality_frame.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="win.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="enemy_damage.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{e5987a75-bb4d-41c5-a43e-872d58925cf2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
